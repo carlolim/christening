@@ -1,0 +1,165 @@
+<html>
+<head>
+    <title>Gunther</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Marck+Script" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="image-holder">
+                        <img class="img-primary" src="images/gunther1.jpg" />
+                        <img class="thumbnail first" src="images/gunther4.jpg" />
+                        <img class="thumbnail second" src="images/gunther2.jpg" />
+                        <img class="thumbnail third" src="images/gunther3.jpg" />
+                    </div>
+                </div>
+                <div class="d-block d-md-none d-lg-none d-xl-none p-5">
+                </div>
+                <div class="col-md-6">
+                    <div class="info-holder">
+                        <div class="text-center">
+                            <img class="cross" src="http://www.clker.com/cliparts/L/P/t/n/k/h/cross-md.png" />
+                            <p class="mt-4 font-weight-bold">
+                                WE JOYFULLY INVITE YOU
+                                TO THE
+                                <br />
+                                BAPTISM OF OUR SON
+                            </p>
+                            <h1 class="dikitdikit color-blue">
+                                Gunther Valmores Lim</h1>
+                            <p class="text-left mt-5 calendar icon">
+                                SATURDAY, 10:30 AM FEBRUARY 09, 2019
+                            </p>
+                            <hr />
+                            <p class="text-left font-weight-light">
+                                CHURCH CEREMONY:</p>
+                            <p class="text-left church icon">
+                                St. Martin de Porres Parish</p>
+                            <p class="text-left location icon">
+                                Adelina 1 Complex Subdivision Saint John St, San Antonio, San Pedro, 4023 Laguna
+                                <button class="btn btn-primary btn-sm" data-toggle="modal" data-target="#modal-location-church">
+                                    map</button>
+                            </p>
+                            <hr />
+                            <p class="text-left font-weight-light">
+                                RECEPTION:</p>
+                            <p class="text-left reception icon">
+                                Museo de San Pedro</p>
+                            <p class="text-left location icon">
+                                122 R. Magsaysay Ave, San Pedro City, Laguna
+                                <button class="btn btn-primary btn-sm" data-toggle="modal" data-target="#modal-location-reception">
+                                    map</button>
+                            </p>
+                            <hr />
+                            <p class="text-left">
+                                Please RSVP by February 7, 2019</p>
+                            <p class="text-left">
+                                <b>Carlo Lim</b>
+                                <br />
+                                <a class="ml-3" href="https://m.me/carlojameslim2" target="_blank">messenger</a><br />
+                                <a class="ml-3" href="tel:09368247828">0936 824 7828</a>
+                            </p>
+                            <p class="text-left">
+                                <b>Jeanine Valmores</b>
+                                <br />
+                                <a class="ml-3" href="https://m.me/jcvalmores" target="_blank">messenger</a><br />
+                                <a class="ml-3" href="tel:09368247828">0905 612 2631</a>
+                            </p>
+                            <hr class="d-none" />
+                            <button class="btn btn-primary d-none" data-toggle="modal" data-target="#modal">
+                                or click here to confirm your attendance</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal" tabindex="-1" role="dialog" id="modal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">
+                        Confirm invitation</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        Are you sure you are going? Please don't break our heart.</p>
+                    <div class="form-group">
+                        <label>
+                            Contact number</label>
+                        <input type="text" class="form-control" />
+                    </div>
+                    </div>
+                    <div class="form-group">
+                        <label>
+                            Email</label>
+                        <input type="text" class="form-control" />
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary">
+                        Submit</button>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                        Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal" tabindex="-1" role="dialog" id="modal-location-church">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">
+                        St. Martin de Porres Parish</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <iframe class="gmap_canvas" src="https://maps.google.com/maps?q=St.%20Martin%20de%20Porres%20Parish%20San%20Antonio%20Laguna&t=&z=17&ie=UTF8&iwloc=&output=embed"
+                        frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                        Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal" tabindex="-1" role="dialog" id="modal-location-reception">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">
+                        Museo de San Pedro</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <iframe class="gmap_canvas" src="https://maps.google.com/maps?q=Museo%20de%20San%20Pedro&t=&z=17&ie=UTF8&iwloc=&output=embed"
+                        frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                        Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+</body>
+</html>
